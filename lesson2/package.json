@@ -1,0 +1,24 @@
+{
+  "name": "hometask2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bla-bla-bla-unknown-parameter.js",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development ./src/script.js --output ./dist/script.js",
+    "dev-config": "webpack",
+    "build": "webpack --mode production ./src/script.js --output ./dist/script.js",
+    "watch": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
